@@ -8,7 +8,7 @@ import CreatePost from './pages/CreatePost'
 import PostDetail from './pages/PostDetail'
 import './App.css'
 
-function App() {
+const App: React.FC = () => {
   return (
     <div className="App">
       <Navbar />
